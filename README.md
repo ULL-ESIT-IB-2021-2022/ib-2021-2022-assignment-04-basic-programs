@@ -7,6 +7,7 @@ Los objetivos de esta práctica son que el alumnado:
 * Se familiarice con las herramientas de escitura, edición y compilación de programas sencillos.
 * Sea capaz de desarrollar programas simples en C++.
 * Conozca el ciclo de desarrollo de un programa de ordenador.
+* Se familiarice con los tipos de datos y expresiones aritméticas.
 
 ### Rúbrica de evaluacion de esta práctica
 
