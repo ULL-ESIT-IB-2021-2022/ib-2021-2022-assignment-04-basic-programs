@@ -1,10 +1,10 @@
-# Práctica 04. Fundamentos de Programación Básica
+# Práctica 04. Programas simples. Tipos de Datos y Expresiones.
 
 ### Objetivos
 
 Los objetivos de esta práctica son que el alumnado:
 
-* Se familiarice con las herramientas de escitura y compilación de programas de ordenador sencillos.
+* Se familiarice con las herramientas de escitura, edición y compilación de programas sencillos.
 * Sea capaz de desarrollar programas simples en C++.
 * Conozca el ciclo de desarrollo de un programa de ordenador.
 
@@ -20,26 +20,28 @@ Se señalan a continuación los aspectos más relevantes (la lista no es exhaust
 
 ### Introducción
 
-La única manera de aprender a programar es programando. Por ello, tanto en esta como en gran parte de las prácticas siguientes se persigue que el estudiante ponga en práctica los conocimientos de programación adquiridos mediante programas de complejidad incremental y que requieren de los conocimientos previos para poder ser resueltos de manera adecuada. En este sentido, se proponen ejercicios que el alumno debe desarrollar de forma individual y donde la generación de código para resolver los problemas propuestos le servirá para formularse nuevas preguntas y consolidar los conceptos adquiridos.
+La única manera de aprender a programar es programando. 
+Por ello, tanto en esta como en gran parte de las prácticas siguientes se persigue que el alumnado ponga en práctica los conocimientos de programación adquiridos mediante programas de complejidad incremental y que requieren de los conocimientos previos para poder ser resueltos de manera adecuada.
+Para lograr ese fin, se proponen ejercicios que el alumno debe desarrollar de forma individual y donde la generación de código para resolver los problemas propuestos le servirá para formularse nuevas preguntas y consolidar los conceptos adquiridos.
 
 ### Trabajo previo
 
-1. Implemente su primer código en C++. Para ello, cree un archivo `hello_world.cc` en su máquina. El contenido del archivo es el siguiente:
+1. Implemente su primer código en C++. Para ello, cree un fichero `hello_world.cc` en su máquina. El contenido del archivo es el siguiente:
 ```cpp
 #include <iostream>
 
 int main() {
-    std::cout << "Hello World!";
-    return 0;
+  std::cout << "Hello World!";
+  return 0;
 }
 ```
 Una vez creado el archivo debe compilarlo para obtener un archivo ejecutable:
 ```
-g++ -std=c++14 -g -Wall -o hello_world hello_world.cc
+g++ -std=c++14 -Wall -o hello_world hello_world.cc
 ```
-Esto da lugar a un ejecutable denominado `hello_world`.
+Esto da lugar a un fichero ejecutable con nombre `hello_world`.
 
-Por último, puede ejecutar este programa `hello_world` tal como sigue:
+Puede ejecutar ese programa `hello_world` tal como sigue:
 ```
 ./hello_world
 ```
@@ -48,18 +50,32 @@ La salida será la siguiente:
 Hello World!
 ```
 2. Estudie todo el material (vídeos, documentos y ejercicios) del tema [Primeros Programas](http://www.minidosis.org/#/temas/Cpp.PrimerosProgramas) del curso "Introducción a la programación en C++".
-3. Lea con detenimiento el [artículo](http://www.cplusplus.com/doc/tutorial/basic_io/) sobre entrada y salida en C++.
-4. Lea con detenimiento el [artículo](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm) tipos básicos en C++.
+3. Estudie con detenimiento el [artículo](http://www.cplusplus.com/doc/tutorial/basic_io/) sobre entrada y salida en C++.
+4. Estudie con detenimiento el [artículo](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm) tipos básicos en C++.
 
 ### Ejercicios 
 
-**Avise al profesor** al finalizar la realización de cada uno de los pasos que se indican a continuación. No inicie una nueva tarea sin haber revisado la anterior.
+Cree diferentes subdirectorios:
+```
+../practica04-simple-programs/ej-01-coste-carretera
+```
+en los que ha de desarrollar cada uno de los ejercicios que se proponen a continuación (cambiando adecuadamente `01-coste-carretera`).
+Para cada uno de los programas, edítelo, compílelo y compruebe que produce el resultado deseado.
 
-El alumno/a escribirá programas independientes que atiendan a los siguientes enunciados:
+En el desarrollo de estos programas preste particular atención a los identificadores que utiliza en el código y el formato del mismo.
+Comience para ello por estudiar la 
+[Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
+Revise en particular los apartados 
+[General Naming Rules](https://google.github.io/styleguide/cppguide.html#General_Naming_Rules),
+[File Names](https://google.github.io/styleguide/cppguide.html#File_Names), 
+[Variable Names](https://google.github.io/styleguide/cppguide.html#Variable_Names)
+y algunos de los subapartados de 
+[Formatting](https://google.github.io/styleguide/cppguide.html#Formatting).
 
 1. Escribir un programa en C++ que calcule y muestre el coste de una carretera en función de (i) su longitud y (ii) el coste por metro. El programa solicitará al usuario únicamente la cantidad de metros de longitud que tiene la carretera, mientras que el coste por metro es un valor conocido de 1624 euros.
 
-2. Escribir un programa en C++ que permita determinar el número de [yenes](https://en.wikipedia.org/wiki/Japanese_yen) equivalente a una cierta cantidad de euros. Para ello, el programa solicitará al usuario que indique de cuántos euros dispone. Una vez introducido la cantidad de euros, mostrará los yuanes equivalentes sabiendo que, a 16 de octubre de 2020, un yen es equivalente a 0.0081 euros de acuerdo a [Morningstar for Currency and Coinbase for Cryptocurrency](https://www.google.com/intl/en/googlefinance/disclaimer/). 
+2. Escribir un programa en C++ que permita determinar el número de [yenes](https://en.wikipedia.org/wiki/Japanese_yen) equivalente a una cierta cantidad de euros. Para ello, el programa solicitará al usuario que indique de cuántos euros dispone. Una vez introducido la cantidad de euros, mostrará los yuanes equivalentes sabiendo que, a 18 de octubre de 2021, un yen es equivalente a 0.0075 euros de acuerdo a 
+[Morningstar for Currency and Coinbase for Cryptocurrency](https://www.google.com/intl/en/googlefinance/disclaimer/). 
 
 3. Escribir un programa en C++ que solicite al usuario la cantidad de monedas 1, 5, 20 y 20 céntimos así como los billetes de 5, 10, 20, 50, 100, 200 y 500 que tiene y calcule y muestre la cantidad de dinero de la que dispone. 
 
