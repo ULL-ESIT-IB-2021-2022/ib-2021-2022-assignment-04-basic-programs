@@ -1,5 +1,7 @@
 # Práctica 04. Programas simples. Tipos de Datos y Expresiones.
 
+# Factor de ponderación: 5
+
 ### Objetivos
 
 Los objetivos de esta práctica son que el alumnado:
