@@ -92,6 +92,11 @@ El usuario introducirá los valores de `x_1`, `y_1`, `z_1`, `x_2`, `y_2`, `z_2`,
 
 En este tipo de enunciados tenga siempre en cuenta que una cosa son los nombres que se utilizan a la hora de enunciar o especificar un problema y otra son los identificadores que una buena programadora ha de utilizar en su código.
 
+Para calcular la raíz cuadrada ha de usarse la función `sqrt()`.
+En [este tutorial](https://www.programiz.com/cpp-programming/library-function/cmath/sqrt)
+tiene información sobre el uso de esta función.
+No olvide incluir el fichero `cmath` para poder utilizarla en su código.
+
 <!-- 
 La respuesta a los ejercicios planteados debe encontrarse ubicado en el repositorio personal de prácticas del alumno para su consulta por parte del profesorado de la asignatura antes de comenzar la sesión de prácticas.
 -->
