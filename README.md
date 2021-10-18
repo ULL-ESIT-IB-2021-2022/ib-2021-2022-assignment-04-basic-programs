@@ -88,15 +88,15 @@ y algunos de los subapartados de
    * `A = (x_1, y_1, z_1)`
    * `B = (x_2, y_2, z_2)`
    
-El usuario introducirá los valores de `x_1`, `y_1`, `z_1`, `x_2`, `y_2`, `z_2`, respectivamente. Una vez introducido los valores el programa calculará y mostrará la distancia entre los puntos, donde la distancia entre A y B viene definido por la siguiente expresión:
+El usuario introducirá los valores de `x_1`, `y_1`, `z_1`, `x_2`, `y_2`, `z_2`. 
+Una vez introducidos los valores el programa calculará y mostrará la distancia entre los puntos, donde la distancia entre A y B viene definida por la siguiente expresión:
 `dist(A, B) = sqrt((x2-x1) + (y2-y1) + (z2-z1))`
-
-En este tipo de enunciados tenga siempre en cuenta que una cosa son los nombres que se utilizan a la hora de enunciar o especificar un problema y otra son los identificadores que una buena programadora ha de utilizar en su código.
-
 Para calcular la raíz cuadrada ha de usarse la función `sqrt()`.
 En [este tutorial](https://www.programiz.com/cpp-programming/library-function/cmath/sqrt)
 tiene información sobre el uso de esta función.
 No olvide incluir el fichero `cmath` para poder utilizarla en su código.
+
+En este tipo de enunciados tenga siempre en cuenta que una cosa son los nombres que se utilizan a la hora de enunciar o especificar un problema y otra son los identificadores que una buena programadora ha de utilizar en su código.
 
 <!-- 
 La respuesta a los ejercicios planteados debe encontrarse ubicado en el repositorio personal de prácticas del alumno para su consulta por parte del profesorado de la asignatura antes de comenzar la sesión de prácticas.
