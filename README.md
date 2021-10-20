@@ -80,7 +80,7 @@ y algunos de los subapartados de
 2. Escribir un programa en C++ que permita determinar el número de [yenes](https://en.wikipedia.org/wiki/Japanese_yen) equivalente a una cierta cantidad de euros. Para ello, el programa solicitará al usuario que indique de cuántos euros dispone. Una vez introducido la cantidad de euros, mostrará los yuanes equivalentes sabiendo que, a 18 de octubre de 2021, un yen es equivalente a 0.0075 euros de acuerdo a 
 [Morningstar for Currency and Coinbase for Cryptocurrency](https://www.google.com/intl/en/googlefinance/disclaimer/). 
 
-3. Escribir un programa en C++ que solicite al usuario la cantidad de monedas 1, 5, 20 y 20 céntimos así como los billetes de 5, 10, 20, 50, 100, 200 y 500 que tiene y calcule y muestre la cantidad de dinero de la que dispone. 
+3. Escribir un programa en C++ que solicite al usuario la cantidad de monedas 1, 5, 20 y 50 céntimos así como los billetes de 5, 10, 20, 50, 100, 200 y 500 que tiene y calcule y muestre la cantidad de dinero de la que dispone. 
 
 4. Escribir un programa en C++ que calcule y muestre la media de 3 calificaciones de alumnos de la asignatura Informática Básica. El programa solicitará al usuario la calificación de cada uno de los 3 alumnos donde cada calificación será un valor numérico entre `0.0` y `10.0`.
 
