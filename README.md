@@ -18,7 +18,7 @@ Se señalan a continuación los aspectos más relevantes (la lista no es exhaust
 * El alumnado ha de acreditar que es capaz de realizar programas simples en C++ similares a los que se proponen en este documento.
 * El alumnado ha de acreditar conocer los conceptos expuestos en el material de referencia de esta práctica.
 * Ha de acreditarse que se es capaz de conectarse a la máquina virtual de la asignatura y ejecutar en ella comandos de Linux.
-* Ha de acreditar que es capaz de editar ficheros alojados en la VM de la asignautra usando VSC.
+* Ha de acreditar que es capaz de editar ficheros alojados en la VM de la asignatura usando VSC.
 * Ha de demostrar que es capaz de modificar, compilar y ejecutar los programas que desarrolle.
 
 ### Introducción
